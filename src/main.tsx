@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from './App.tsx'
 import { ThemeProvider, createTheme } from "@mui/material";
 import { CssBaseline } from "@mui/material";
+import "../index.css";
 
 const theme = createTheme({
     palette: { mode: 'dark' }
