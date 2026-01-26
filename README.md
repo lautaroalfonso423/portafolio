@@ -6,7 +6,7 @@ Personal portfolio website built to showcase my projects, work experience, and c
 
 ## 🌍 Live Demo
 
-- **Website:** https://wilsoncosta-portfolio.onrender.com
+- **Website:** https://wilsoncosta-portfolio.vercel.app
 
 ## ✨ Features
 
