@@ -3,6 +3,7 @@
 ![Portfolio Preview](./public/preview.png)
 
 Personal portfolio website built to showcase my projects, work experience, and certifications.
+
 ## 🌍 Live Demo
 
 - **Website:** https://wilsoncosta-portfolio.onrender.com
@@ -27,18 +28,25 @@ Personal portfolio website built to showcase my projects, work experience, and c
 ## 🚀 Getting Started
 
 ### 1) Install dependencies
+
 ```bash
   npm install
 ```
+
 ### 2) Run locally
+
 ```bash
   npm run dev
 ```
+
 ### 3) Build for production
+
 ```bash
   npm run build
 ```
+
 ### 4) Preview production build
+
 ```bash
   npm run preview
 ```

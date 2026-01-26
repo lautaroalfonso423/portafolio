@@ -8,21 +8,31 @@ import Footer from "./components/Footer.tsx";
 import WorkExperience from "./components/WorkExperience.tsx";
 
 export default function App() {
-    return (
-        <Box>
-            <MenuBar/>
+  return (
+    <Box>
+      <MenuBar />
 
-            <Container id="aboutme" maxWidth="lg" sx={{ py: 6, px: 6 }}><Hero/></Container>
+      <Container id="aboutme" maxWidth="lg" sx={{ py: 6, px: 6 }}>
+        <Hero />
+      </Container>
 
-            <Container id="experience" maxWidth="lg" sx={{ py: 6, px: 6 }}><WorkExperience/></Container>
+      <Container id="experience" maxWidth="lg" sx={{ py: 6, px: 6 }}>
+        <WorkExperience />
+      </Container>
 
-            <Container id="projects" maxWidth="lg" sx={{ py: 6, px: 6 }}><Projects/></Container>
+      <Container id="projects" maxWidth="lg" sx={{ py: 6, px: 6 }}>
+        <Projects />
+      </Container>
 
-            <Container id="certifications" maxWidth="lg" sx={{ py: 6, px: 6 }}><Certifications/></Container>
+      <Container id="certifications" maxWidth="lg" sx={{ py: 6, px: 6 }}>
+        <Certifications />
+      </Container>
 
-            <Container id="contact" maxWidth="lg" sx={{ py: 6, px: 6 }}><ContactForm/></Container>
+      <Container id="contact" maxWidth="lg" sx={{ py: 6, px: 6 }}>
+        <ContactForm />
+      </Container>
 
-            <Footer/>
-        </Box>
-    );
+      <Footer />
+    </Box>
+  );
 }
