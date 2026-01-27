@@ -1,5 +1,11 @@
 import type { Certification, Experience, Project, TechLogo } from "./types.ts";
 
+export const AboutMe = [
+  "Hello there, I’m a software engineer with over 5 years of experience who enjoys building full-stack applications and scalable backend services — from clean APIs and data pipelines to modern, responsive UIs.",
+  "My work is mainly on distributed systems in production, focusing on performance, reliability, and developer experience. I like solving real problems, improving systems over time, and keeping things simple and maintainable.",
+  "Outside of work, I’m always experimenting with new ideas, building side projects, and learning new tools and technologies.",
+];
+
 export const Info = {
   name: "Wilson Costa",
   email: "wilson.ruben97@gmail.com",
@@ -16,14 +22,14 @@ export const Works: Experience[] = [
     start: "Feb 2023",
     end: "Nov 2025",
     highlights: [
-        "Served as Backend Engineer and Scrum Master on a large-scale distributed platform built with Quarkus microservices, each owning its own PostgreSQL schema, deployed on Kubernetes, with CI/CD via GitHub Actions and infrastructure provisioning using Terraform & Terragrunt (Azure).",
-        "Designed and developed a big-data backend system to generate and manage vehicle variants for powertrain data, scaling to millions of variant–feature value assignments across services.",
-        "Led a Kafka-based data migration, creating a dedicated microservice to process thousands of ~2MB JSON events, transforming slow batch workflows into an asynchronous near-real-time pipeline using partitioning and parallelization.",
-        "Optimized monolith import pipelines, improving Hibernate queries and in-memory graph traversal, reducing processing time from ~20 minutes to ~15 seconds.",
-        "Implemented scheduled processing jobs and complex business logic based on logical expressions, enabling users to dynamically select subsets of variants without generating all possible combinations.",
-        "Designed and optimized PostgreSQL schemas with advanced table partitioning, query rewrites, and indexing, reducing query latency to ~500ms on 10M+ row partitioned tables.",
-        "Built and optimized feature–value assignment engines and user-driven workviews, ensuring scalability and responsive UX through efficient data-access patterns and default filtering.",
-        "Improved code quality, maintainability, and delivery workflows, using SonarQube, contributing to architectural decisions, collaborating with cross-team stakeholders, and supporting CI/CD and production operations."
+      "Served as Backend Engineer and Scrum Master on a large-scale distributed platform built with Quarkus microservices, each owning its own PostgreSQL schema, deployed on Kubernetes, with CI/CD via GitHub Actions and infrastructure provisioning using Terraform & Terragrunt (Azure).",
+      "Designed and developed a big-data backend system to generate and manage vehicle variants for powertrain data, scaling to millions of variant–feature value assignments across services.",
+      "Led a Kafka-based data migration, creating a dedicated microservice to process thousands of ~2MB JSON events, transforming slow batch workflows into an asynchronous near-real-time pipeline using partitioning and parallelization.",
+      "Optimized monolith import pipelines, improving Hibernate queries and in-memory graph traversal, reducing processing time from ~20 minutes to ~15 seconds.",
+      "Implemented scheduled processing jobs and complex business logic based on logical expressions, enabling users to dynamically select subsets of variants without generating all possible combinations.",
+      "Designed and optimized PostgreSQL schemas with advanced table partitioning, query rewrites, and indexing, reducing query latency to ~500ms on 10M+ row partitioned tables.",
+      "Built and optimized feature–value assignment engines and user-driven workviews, ensuring scalability and responsive UX through efficient data-access patterns and default filtering.",
+      "Improved code quality, maintainability, and delivery workflows, using SonarQube, contributing to architectural decisions, collaborating with cross-team stakeholders, and supporting CI/CD and production operations.",
     ],
   },
   {

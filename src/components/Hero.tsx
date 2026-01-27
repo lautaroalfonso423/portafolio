@@ -1,5 +1,5 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
-import { Info, SkillCategories } from "../resources/data.ts";
+import { AboutMe, Info, SkillCategories } from "../resources/data.ts";
 import FileOpenOutlinedIcon from "@mui/icons-material/FileOpenOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
@@ -10,12 +10,10 @@ import React from "react";
 export default function Hero() {
   const pSx = {
     mt: 2,
-    lineHeight: 1.85,
+    lineHeight: 2,
     fontSize: "1.05rem",
-    textAlign: { xs: "left", md: "justify" },
+    textAlign: "justify",
     textJustify: "inter-word",
-    hyphens: "auto",
-    opacity: 0.92,
   };
   const btnSx = {
     borderRadius: 999,
@@ -69,6 +67,7 @@ export default function Hero() {
                 borderRadius: "50%",
                 backgroundColor: "#2ecc71",
                 boxShadow: "0 0 12px rgba(46, 204, 113, 0.6)",
+                flexShrink: 0,
               }}
             />
             <Typography variant="caption" sx={{ color: "#9ef5c2", fontWeight: 700 }}>
@@ -133,22 +132,11 @@ export default function Hero() {
         </Box>
 
         <Box sx={{ mt: 2 }}>
-          <Typography sx={pSx} color="text.secondary">
-            Hello there, I’m a software engineer who enjoys building full-stack applications and
-            scalable backend services — from clean APIs and data pipelines to modern, responsive
-            UIs.
-          </Typography>
-
-          <Typography sx={pSx} color="text.secondary">
-            My work is mainly on distributed systems in production, focusing on performance,
-            reliability, and developer experience. I like solving real problems, improving systems
-            over time, and keeping things simple and maintainable.
-          </Typography>
-
-          <Typography sx={pSx} color="text.secondary">
-            Outside of work, I’m always experimenting with new ideas, building side projects, and
-            learning new tools and technologies.
-          </Typography>
+          {AboutMe.map((text) => (
+            <Typography sx={pSx} color="text.secondary">
+              {text}
+            </Typography>
+          ))}
         </Box>
         <Box sx={{ display: "flex", gap: 2, mt: 3, flexWrap: "wrap", mx: "auto" }}>
           <Button

@@ -2,6 +2,13 @@ import { Box, Card, CardContent, Stack, Typography } from "@mui/material";
 import { Works } from "../resources/data.ts";
 
 export default function WorkExperience() {
+  const tSx = {
+    mt: 1,
+    lineHeight: 2,
+    textAlign: "justify",
+    textJustify: "inter-word",
+    hyphens: "auto",
+  };
   return (
     <Box id="experience" sx={{ py: 6 }}>
       <Typography variant="h4" gutterBottom sx={{ fontWeight: 800 }}>
@@ -150,22 +157,13 @@ export default function WorkExperience() {
               </Box>
 
               <Box sx={{ mt: 2 }}>
-                <Box
-                  component="ul"
-                  sx={{
-                    m: 0,
-                    pl: 2.2,
-                    color: "text.secondary",
-                    "& li": { mb: 0.8, lineHeight: 1.6 },
-                    "& li:last-child": { mb: 0 },
-                  }}
-                >
+                <Box component="ul" sx={{ pl: 6, pr: { xs: 4, sm: 5 }, color: "text.secondary" }}>
                   {exp.highlights.map((h) => (
-                    <li key={h}>
-                      <Typography component="span" color="text.secondary">
+                    <Box component="li" key={h}>
+                      <Typography sx={tSx} color="text.secondary">
                         {h}
                       </Typography>
-                    </li>
+                    </Box>
                   ))}
                 </Box>
               </Box>
