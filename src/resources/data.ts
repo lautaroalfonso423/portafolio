@@ -16,11 +16,14 @@ export const Works: Experience[] = [
     start: "Feb 2023",
     end: "Nov 2025",
     highlights: [
-      "Backend Engineer + Scrum Master on distributed Quarkus services with PostgreSQL per service and Kubernetes deployments.",
-      "Led Kafka-based resources migration: async near-real-time pipeline processing thousands of ~2MB JSON events.",
-      "Optimized imports from ~20 min → ~15 sec by improving Hibernate queries and in-memory graph traversal.",
-      "Improved PostgreSQL performance with indexing + query rewrites (minutes → ~500ms on 10M+ rows).",
-      "Improved code quality with SonarQube; reduced technical debt and improved maintainability.",
+        "Served as Backend Engineer and Scrum Master on a large-scale distributed platform built with Quarkus microservices, each owning its own PostgreSQL schema, deployed on Kubernetes, with CI/CD via GitHub Actions and infrastructure provisioning using Terraform & Terragrunt (Azure).",
+        "Designed and developed a big-data backend system to generate and manage vehicle variants for powertrain data, scaling to millions of variant–feature value assignments across services.",
+        "Led a Kafka-based data migration, creating a dedicated microservice to process thousands of ~2MB JSON events, transforming slow batch workflows into an asynchronous near-real-time pipeline using partitioning and parallelization.",
+        "Optimized monolith import pipelines, improving Hibernate queries and in-memory graph traversal, reducing processing time from ~20 minutes to ~15 seconds.",
+        "Implemented scheduled processing jobs and complex business logic based on logical expressions, enabling users to dynamically select subsets of variants without generating all possible combinations.",
+        "Designed and optimized PostgreSQL schemas with advanced table partitioning, query rewrites, and indexing, reducing query latency to ~500ms on 10M+ row partitioned tables.",
+        "Built and optimized feature–value assignment engines and user-driven workviews, ensuring scalability and responsive UX through efficient data-access patterns and default filtering.",
+        "Improved code quality, maintainability, and delivery workflows, using SonarQube, contributing to architectural decisions, collaborating with cross-team stakeholders, and supporting CI/CD and production operations."
     ],
   },
   {
