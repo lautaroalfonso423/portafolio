@@ -1,4 +1,4 @@
-# Portfolio — Wilson Costa
+# Portfolio — Lautaro Alfonso
 
 ![Portfolio Preview](./public/preview.png)
 
@@ -6,7 +6,7 @@ Personal portfolio website built to showcase my projects, work experience, and c
 
 ## 🌍 Live Demo
 
-- **Website:** https://wilsoncosta-portfolio.vercel.app
+- **Website:**
 
 ## ✨ Features
 
@@ -55,6 +55,6 @@ Personal portfolio website built to showcase my projects, work experience, and c
 
 If you’d like to reach out, feel free to connect via:
 
-- **GitHub**: https://github.com/WilsonRCosta
-- **LinkedIn**: https://www.linkedin.com/in/wilson-costa-9a6b96159/
-- **Email**: wilson.ruben97@gmail.com
+- **GitHub**: https://github.com/lautaroalfonso423
+- **LinkedIn**: https://www.linkedin.com/in/lautaro-sebastian-alfonso-sosa-b13b19323/
+- **Email**: sebastiansosa3011@gmail.com
