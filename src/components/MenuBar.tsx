@@ -81,7 +81,7 @@ export default function MenuBar() {
       }}
     >
       <Toolbar sx={{ gap: 1 }}>
-        <Avatar sx={{ mr: 1 }} alt={Info.name} src="/my-photo.jpeg" />
+        <Avatar sx={{ mr: 1 }} alt={Info.name} src="/mifoto.png" />
 
         <Typography
           variant="h6"
@@ -134,7 +134,7 @@ export default function MenuBar() {
         }}
       >
         <Box sx={{ p: 2, display: "flex", alignItems: "center", gap: 1.5 }}>
-          <Avatar alt={Info.name} src="/my-photo.jpeg" />
+          <Avatar alt={Info.name} src="/mifoto.png" />
           <Box sx={{ minWidth: 0 }}>
             <Typography sx={{ fontWeight: 800, lineHeight: 1.1 }}>{Info.name}</Typography>
             <Typography variant="body2" color="text.secondary" noWrap>

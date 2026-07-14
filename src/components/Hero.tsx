@@ -22,7 +22,7 @@ export default function Hero() {
     transition: "transform 160ms ease",
     "&:hover": { transform: "translateY(-2px)" },
   };
-  const role = useTypewriter(["Backend Software Engineer", "Full-Stack Developer", "Scrum Master"]);
+  const role = useTypewriter(["Back-end Developer", "Full-Stack Developer"]);
 
   return (
     <Box sx={{ pt: 6, position: "relative" }}>
@@ -128,7 +128,7 @@ export default function Hero() {
             opacity: 0.9,
           }}
         >
-          Lisbon, Portugal 🇵🇹
+          Chaco, Argentina
         </Box>
 
         <Box sx={{ mt: 2 }}>
@@ -143,7 +143,7 @@ export default function Hero() {
             startIcon={<FileOpenOutlinedIcon />}
             sx={btnSx}
             variant="contained"
-            href="/Resume-Wilson-Costa.pdf"
+            href="https://drive.google.com/file/d/1Z3ob9yd62Fm26UwbnbnSWGG_Ag49DwZO/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
